@@ -1,0 +1,73 @@
+<<<<<<< HEAD
+1. Create a new GitHub Account (https://github.com/)
+2. Download and Install GitHub Desktop (https://github.com/)
+3. Dowload Visual Studio Code  (https://code.visualstudio.com/docs/?dv=win)
+4. Dowload and install ANACONDA instead (https://www.anaconda.com/products/distribution) install with admin rights
+4.1 Add path to the System Path Envoronment Variables (C:\ProgramData\Anaconda3, C:\ProgramData\Anaconda3\Scripts, C:\ProgramData\Anaconda3\Library\bin, C:\ProgramData\Anaconda3\Library\mingw-w64\bin) - This will allow you to recognize conda and PIP
+5. Install Django (conda install django in the command line as admin)
+6. Install Python Extension in Vs Code (IntelliSence)
+7. Install SQLite Extension in Vs Code (by alexcvzz)
+8. Install HTML CSS Support (CSS IntelliSence for HTML)
+
+--Creating the Application -----
+1. open VSCode and run a new terminal
+2. run code django-admin startproject crud to start the project
+3. change directory to crud (cd crud)
+4. run code to start the servier (python manage.py runserver)
+5. run code to create the application (python manage.py startapp employee)
+5.1 change the settings.py to add employee under INSTALLED_APPS ('employee')
+5.2 change the urls.py to add from django.urls.conf import include and path('', include('employee.urls')) to the urlpatterns
+6. Create models.py under employee
+7. Create foms.py under employee
+8. Create views.py under employee
+9. Create urls.py under employee
+10. Create Template folder under employee
+10.1 Create edit.html
+10.2 Create index.html
+10.3 Create show.html
+11 Create static folder under employee
+11.1 Create css folder under static
+11.2 create style.css under css
+12. Make Migrations
+12.1 run code to make the migrations (python manage.py makemigrations)
+12.2 run code to implement the migrations (python manage.py migrate)
+13 start the server (python manage.py runserver)
+
+
+=======
+1. Create a new GitHub Account (https://github.com/)
+2. Download and Install GitHub Desktop (https://github.com/)
+3. Dowload Visual Studio Code  (https://code.visualstudio.com/docs/?dv=win)
+4. Dowload and install ANACONDA instead (https://www.anaconda.com/products/distribution) install with admin rights
+4.1 Add path to the System Path Envoronment Variables (C:\ProgramData\Anaconda3, C:\ProgramData\Anaconda3\Scripts, C:\ProgramData\Anaconda3\Library\bin, C:\ProgramData\Anaconda3\Library\mingw-w64\bin) - This will allow you to recognize conda and PIP
+5. Install Django (conda install django in the command line as admin)
+6. Install Python Extension in Vs Code (IntelliSence)
+7. Install SQLite Extension in Vs Code (by alexcvzz)
+8. Install HTML CSS Support (CSS IntelliSence for HTML)
+
+--Creating the Application -----
+1. open VSCode and run a new terminal
+2. run code django-admin startproject crud to start the project
+3. change directory to crud (cd crud)
+4. run code to start the servier (python manage.py runserver)
+5. run code to create the application (python manage.py startapp employee)
+5.1 change the settings.py to add employee under INSTALLED_APPS ('employee')
+5.2 change the urls.py to add from django.urls.conf import include and path('', include('employee.urls')) to the urlpatterns
+6. Create models.py under employee
+7. Create foms.py under employee
+8. Create views.py under employee
+9. Create urls.py under employee
+10. Create Template folder under employee
+10.1 Create edit.html
+10.2 Create index.html
+10.3 Create show.html
+11 Create static folder under employee
+11.1 Create css folder under static
+11.2 create style.css under css
+12. Make Migrations
+12.1 run code to make the migrations (python manage.py makemigrations)
+12.2 run code to implement the migrations (python manage.py migrate)
+13 start the server (python manage.py runserver)
+
+
+>>>>>>> 01be01ff48bd528fdb66760a8d5c29b244b1567c
